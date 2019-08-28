@@ -1,0 +1,100 @@
+.inp {
+height: 70px;
+width: 350px;
+font: 20pt/22pt sans-serif;
+max-height: 500px;
+max-width: 500px;
+border-radius: 0px 10px 0px 0px;
+box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+} 
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.bodies {
+	background-image: url(fon1.jpg);
+	color: black;
+	
+
+	font-family: Bookman Old Style;
+		font: 24pt/26pt sans-serif; color: white;
+  	font-family: Bookman Old Style;
+}
+.tophead {
+	background-color: rgba(22, 26, 30, 1);
+	position:absolute;
+  	top:0;
+  	left: 0;
+  	right: 0;
+  	height: 70px;
+  	font: 30pt/32pt sans-serif; color: white;
+  	font-family: Bookman Old Style;
+}
+
+.cent {
+	border-radius: 0px 0px 50px 50px;
+	background-color: rgba(22, 26, 30, 0.8);
+	align-content: center;
+  	margin-left: 15%;
+  	width: 70%;
+  	font-family: Bookman Old Style;
+		font: 28pt/30pt sans-serif; color: white;
+  	font-family: Bookman Old Style;
+  	text-align: center;
+
+}
+.form {
+	float:left;
+	width:500px;
+	
+	margin-left: 300px;
+}
+ 
+.comments {
+
+max-width: 500px;
+border-radius: 10px;
+background-color: white;
+border-color: black;
+color: black;
+margin-top: 15px;
+box-shadow: 0.5em 0.5em 10px rgba(122,122,122,0.7);
+
+}
+
+.name {
+margin-left: 10px;
+max-width: 500px;
+word-wrap: break-word;
+font: 16pt/18pt sans-serif; 
+font-family: Bookman Old Style;
+}
+
+.message {
+margin-left: 10px;
+max-width: 500px;
+margin-bottom: 40px;
+word-wrap: break-word;
+font: 12pt/14pt sans-serif; 
+font-family: Bookman Old Style;
+
+}
+
+.tovar {
+	border-radius: 15px;
+	background-color: #343e40;
+	width: 250px;
+	height: 350px;
+	font: 14pt/16pt sans-serif; 
+	color:white;
+	font-family: Bookman Old Style;
+}
